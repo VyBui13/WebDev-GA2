@@ -6,13 +6,85 @@
     box-sizing: border-box;
 }
 
-body {
+html {
+    font-family: "Varela Round", sans-serif;
+}
+
+header {
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    background-color: #16423C;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+header .header__logo {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+header .header__title {
+    font-weight: 700;
+    margin-left: 10px;
+
+}
+
+#D_outer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    margin: 20px 0px 20px;
+    width: 100%;
+    background-color: #6A9C89;
 }
 
-html {
-    font-family: "Varela Round", sans-serif;
+#D_inner {
+    margin: 20px 0px 20px;
+    width: 80%;
+    padding: 20px;
+    border: 2px solid #fff;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+    list-style: none;
+    text-align: center;
+    background-color: #F5F5F7;
+}
+
+#GDN_name {
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+    text-align: center;
+}
+
+#anh_chup_chung {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    padding: 30px 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #98DED9;
+}
+
+#BDGV_name {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: inline-block;
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+    text-align: center;
 }
