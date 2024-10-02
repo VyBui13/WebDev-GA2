@@ -21,6 +21,16 @@
     height: 250px;
 }
 
+.card .card__clickme {
+    position: absolute;
+    top: -55px;
+    right: -120px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    rotate: -45deg;
+}
+
 .card input {
     display: none;
 }
